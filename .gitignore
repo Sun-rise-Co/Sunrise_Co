@@ -1,0 +1,101 @@
+# Contacts folder (contains user submissions)
+contacts/
+*.json
+
+# IDE files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs
+*.log
+error_log
+access_log
+
+# Temporary files
+*.tmp
+*.temp
+*~
+
+# PHP
+*.php.bak
+*.php~
+*.swp
+
+# Exclude everything in home directory except our project
+/*
+!index.html
+!assets/
+!.gitignore
+!README.md
+!.nojekyll
+!sitemap.xml
+!robots.txt
+
+# Exclude backend folder if exists
+backend/
+
+# Exclude user home directories
+.VirtualBox/
+.android/
+.bash_history
+.cache/
+.cargo/
+.chatgpt/
+.codeium/
+.config/
+.cursor/
+.dbclient/
+.docker/
+.dotnet/
+.expo/
+.gnupg/
+.gradle/
+.ipython/
+.jupyter/
+.keras/
+.lesshst
+.matplotlib/
+.npmrc
+.nuget/
+.rustup/
+.ssh/
+.streamlit/
+.templateengine/
+.vscode/
+.vuerc
+.windsurf/
+.yarnrc
+AppData/
+Contacts/
+Desktop/
+Documents/
+Downloads/
+Favorites/
+Links/
+Music/
+MyWinApp/
+OneDrive/
+PhpstormProjects/
+Pictures/
+Postman/
+"Saved Games/"
+Searches/
+StudioProjects/
+Videos/
+"VirtualBox VMs/"
+dart-sdk/
+docker-systemd/
+injaunja/
+karo24_mvc/
+node_modules/
+php/
+scikit_learn_data/
+source/
+
