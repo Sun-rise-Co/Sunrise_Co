@@ -13,13 +13,28 @@ class PortfolioManager {
     }
 
     updateLanguage() {
-        // Listen for language changes
-        document.addEventListener('languageChanged', () => {
-            this.currentLang = localStorage.getItem('language') || 'en';
-            this.renderProjects();
-            if (this.currentProject) {
-                this.openModal(this.currentProject);
+        // Check for language changes periodically
+        const checkLanguageChange = () => {
+            const currentLang = localStorage.getItem('language') || 'en';
+            if (this.currentLang !== currentLang) {
+                this.currentLang = currentLang;
+                this.renderProjects();
+                if (this.currentProject) {
+                    this.openModal(this.currentProject);
+                }
             }
+        };
+        
+        // Check for language changes every second
+        setInterval(checkLanguageChange, 1000);
+        
+        // Also listen to language switcher clicks
+        document.querySelectorAll('.lang-btn').forEach(btn => {
+            btn.addEventListener('click', () => {
+                setTimeout(() => {
+                    checkLanguageChange();
+                }, 300);
+            });
         });
     }
 
