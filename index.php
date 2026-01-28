@@ -6,8 +6,8 @@ require_once 'config.php';
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="RushSun - Custom AI Solutions, IoT, Machine Learning, Deep Learning">
-    <title>RushSun - AI & Technology Solutions</title>
+    <meta name="description" content="SunRise - Custom AI Solutions, IoT, Machine Learning, Deep Learning">
+    <title>SunRise - AI & Technology Solutions</title>
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -19,7 +19,7 @@ require_once 'config.php';
         <div class="container">
             <div class="nav-wrapper">
                 <div class="logo">
-                    <a href="#home">RushSun</a>
+                    <a href="#home">SunRise</a>
                 </div>
                 <ul class="nav-menu" id="navMenu">
                     <li><a href="#home" class="nav-link"><?php echo t('nav_home'); ?></a></li>
@@ -301,7 +301,7 @@ require_once 'config.php';
                         </div>
                         <div class="info-content">
                             <h4><?php echo $current_lang == 'fa' ? 'ایمیل' : ($current_lang == 'it' ? 'Email' : 'Email'); ?></h4>
-                            <p>info@rushsun.co</p>
+                            <p>info@SunRise.co</p>
                         </div>
                     </div>
                 </div>
@@ -314,7 +314,7 @@ require_once 'config.php';
         <div class="container">
             <div class="footer-content">
                 <div class="footer-section">
-                    <h3 class="footer-logo">RushSun</h3>
+                    <h3 class="footer-logo">SunRise</h3>
                     <p class="footer-description"><?php echo t('footer_description'); ?></p>
                 </div>
                 <div class="footer-section">
@@ -332,12 +332,12 @@ require_once 'config.php';
                     <ul class="footer-links">
                         <li><?php echo $current_lang == 'fa' ? 'تهران، ایران' : ($current_lang == 'it' ? 'Milano, Italia' : 'Milan, Italy'); ?></li>
                         <li>+39 123 456 7890</li>
-                        <li>info@rushsun.co</li>
+                        <li>info@SunRise.co</li>
                     </ul>
                 </div>
             </div>
             <div class="footer-bottom">
-                <p>&copy; <?php echo date('Y'); ?> RushSun. <?php echo t('footer_rights'); ?></p>
+                <p>&copy; <?php echo date('Y'); ?> SunRise. <?php echo t('footer_rights'); ?></p>
             </div>
         </div>
     </footer>
